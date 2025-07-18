@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AvatarSelection from '../components/AvatarSelection';
 
 const MemberProfile = () => {

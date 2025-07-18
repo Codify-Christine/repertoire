@@ -1,4 +1,4 @@
-import React from 'react';
+
 import VolunteerOverview from '../components/VolunteerOverview';
 import UpcomingDuties from '../components/UpcomingDuties';
 import VolunteerOpportunities from '../components/VolunteerOpportunities';

@@ -1,9 +1,8 @@
-import React from "react";
-import TopNavBar from "./TopNavBar";
-import CategoryTabs from "./CategoryTabs";
-import AnnouncementCard from "./AnnouncementCard";
-import BulletinSection from "./BulletinSection";
-import NotificationPreferences from "./NotificationPreferences";
+import TopNavBar from "../components/TopNavbar";
+import CategoryTabs from "../components/CategoryTabs";
+import AnnouncementCard from "../components/AnnouncementCard";
+import BulletinSection from "../components/BulletinSection";
+import NotificationPreferences from "../components/NotificationPreferences";
 
 const Notifications = () => {
   return (

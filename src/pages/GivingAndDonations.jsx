@@ -1,5 +1,4 @@
-// src/pages/GivingPage.jsx
-import React from 'react';
+
 import DonationsOverview from '../components/DonationsOverview';
 import QuickGive from '../components/QuickGive';
 import GivingHistory from '../components/GivingHistory';

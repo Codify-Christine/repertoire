@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Bell, Filter, ChevronDown } from "lucide-react";
 
 const TopNavBar = () => {
@@ -25,7 +25,7 @@ const TopNavBar = () => {
 
         <div className="flex items-center gap-2 border-l pl-4">
           <img
-            src="https://ui-avatars.com/api/?name=John+Doe&background=1b2c45&color=fff"
+            src="./assets/mafia avatar.jpg"
             alt="Pastor John"
             className="w-8 h-8 rounded-full"
           />

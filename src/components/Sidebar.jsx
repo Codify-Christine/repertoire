@@ -55,7 +55,7 @@ const Sidebar = () => {
       <aside
         className={`${
           mobileOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
-        } fixed top-0 left-0 h-screen bg-[ffffff] text-white transition-all duration-300 z-40 flex flex-col justify-between shadow-lg ${
+        } fixed top-0 left-0 h-screen bg-[0071BC]] text-white transition-all duration-300 z-40 flex flex-col justify-between shadow-lg ${
           isHovered ? "w-60" : "w-20"
         } md:transition-none md:flex ${
           darkMode ? "dark" : ""
@@ -65,7 +65,7 @@ const Sidebar = () => {
       >
         {/* Top Logo and Theme Toggle */}
         <div className="p-4 flex flex-col items-center gap-4">
-          <div className="flex items-center gap-2 w-full">
+          <div className="flex items-left gap-2 w-full">
             <img
               src={logoUrl}
               alt="Logo"
@@ -92,7 +92,7 @@ const Sidebar = () => {
               to={path}
               className={({ isActive }) =>
                 `flex items-center gap-3 p-2 rounded-md transition ${
-                  isActive ? "bg-[0071BC] text-orange-300" : "hover:bg-[0071BC]"
+                  isActive ? "bg-[F7941D] text-orange-300" : "hover:bg-[0071BC]"
                 }`
               }
             >
